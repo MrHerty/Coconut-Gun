@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skills USA Quest", "Assembly-CSharp.csproj", "{A9E66C8B-9CDA-F958-6E2F-96FB5F7D53B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skills USA Quest", "Assembly-CSharp-firstpass.csproj", "{C3878392-A11D-EFC5-4D87-0979F8A9169E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skills USA Quest", "Assembly-CSharp-Editor-firstpass.csproj", "{B7452172-19C3-D759-41AE-16E145AEE437}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{A9E66C8B-9CDA-F958-6E2F-96FB5F7D53B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9E66C8B-9CDA-F958-6E2F-96FB5F7D53B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9E66C8B-9CDA-F958-6E2F-96FB5F7D53B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3878392-A11D-EFC5-4D87-0979F8A9169E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3878392-A11D-EFC5-4D87-0979F8A9169E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3878392-A11D-EFC5-4D87-0979F8A9169E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3878392-A11D-EFC5-4D87-0979F8A9169E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7452172-19C3-D759-41AE-16E145AEE437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7452172-19C3-D759-41AE-16E145AEE437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7452172-19C3-D759-41AE-16E145AEE437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7452172-19C3-D759-41AE-16E145AEE437}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
