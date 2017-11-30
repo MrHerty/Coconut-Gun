@@ -6,14 +6,36 @@ public class Button : MonoBehaviour {
 
 
 	public AudioSource audioSource;
+	public bool willToggleOnActive = false;
+	public GameObject gate;
+
+	public bool forPlayer = true;
+	public bool forPuzzle = false;
 
 
-	void onCollisionEnter(Collision collision)
+	void OnTriggerEnter(Collider collider)
 	{
-		if(collision.gameObject.tag == "Player")
+		if(collider.gameObject.tag == "Player" && forPlayer)
 		{
 			Debug.Log ("Button Pressed");
+
 			audioSource.Play ();
+			gate.SetActive (false);
+
+			if (willToggleOnActive) 
+			{
+				gameObject.SetActive (false);
+			}
+		}
+	}
+
+	void OnTriggerStay(Collider collider)
+	{
+		if(collider.gameObject.tag == "Puzzle" && forPuzzle)
+		{
+			audioSource.Play ();
+			gate.SetActive (false);
+			gameObject.SetActive (false);
 		}
 	}
 }
