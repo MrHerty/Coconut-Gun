@@ -30,3 +30,4 @@ E:\Coconut-Gun\Skills USA Quest\Temp\bin\Debug\UnityEngine.Analytics.xml
 E:\Coconut-Gun\Skills USA Quest\Temp\bin\Debug\UnityEngine.HoloLens.xml
 E:\Coconut-Gun\Skills USA Quest\obj\Debug\Assembly-CSharp.dll
 E:\Coconut-Gun\Skills USA Quest\obj\Debug\Assembly-CSharp.pdb
+E:\Coconut-Gun\Skills USA Quest\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
